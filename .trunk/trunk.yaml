@@ -16,9 +16,9 @@ runtimes:
 lint:
   enabled:
     - prettier@3.4.2
-    - htmlhint@1.1.4
     - stylelint@16.12.0
     - eslint@9.17.0
+    - actionlint@1.7.7
     - markdownlint@0.43.0
     - git-diff-check
     - trufflehog@3.84.1

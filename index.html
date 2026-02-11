@@ -1,269 +1,409 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GrassRoots Crypto | Crypto &amp; AI Education &amp; Consulting</title>
-  <meta name="description" content="Practical crypto and AI education and consulting. No jargon, no hype. 21+ years IT, 7+ years crypto. Adelaide-based, serving Australia and worldwide.">
-  <meta name="author" content="Chris GRC - GrassRoots Crypto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrassRoots Crypto | Crypto &amp; AI Education &amp; Consulting</title>
+    <meta
+      name="description"
+      content="Practical crypto and AI education and consulting. No jargon, no hype. 21+ years IT, 7+ years crypto. Adelaide-based, serving Australia and worldwide."
+    />
+    <meta name="author" content="Chris GRC - GrassRoots Crypto" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="GrassRoots Crypto | Crypto & AI Education & Consulting">
-  <meta property="og:description" content="Practical crypto and AI education and consulting. No jargon, no hype. Adelaide-based, serving Australia and worldwide.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://grassrootscrypto.io">
-  <meta property="og:image" content="https://grassrootscrypto.io/images/logo.png">
+    <!-- Open Graph -->
+    <meta property="og:title" content="GrassRoots Crypto | Crypto & AI Education & Consulting" />
+    <meta
+      property="og:description"
+      content="Practical crypto and AI education and consulting. No jargon, no hype. Adelaide-based, serving Australia and worldwide."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://grassrootscrypto.io" />
+    <meta property="og:image" content="https://grassrootscrypto.io/images/logo.png" />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="images/logo.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png" />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ===================== NAVIGATION ===================== -->
+    <header class="site-header" id="header">
+      <nav class="nav-container">
+        <a href="#" class="nav-logo">
+          <img src="images/logo.png" alt="GrassRoots Crypto" width="36" height="36" />
+          <span>GrassRoots Crypto</span>
+        </a>
 
-  <!-- ===================== NAVIGATION ===================== -->
-  <header class="site-header" id="header">
-    <nav class="nav-container">
-      <a href="#" class="nav-logo">
-        <img src="images/logo.png" alt="GrassRoots Crypto" width="36" height="36">
-        <span>GrassRoots Crypto</span>
-      </a>
+        <div class="nav-actions">
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <svg
+              class="icon-sun"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="5" />
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+              <line x1="1" y1="12" x2="3" y2="12" />
+              <line x1="21" y1="12" x2="23" y2="12" />
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+            </svg>
+            <svg
+              class="icon-moon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+          </button>
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+          >
+            <span class="hamburger"></span>
+          </button>
+        </div>
 
-      <div class="nav-actions">
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-        </button>
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
-          <span class="hamburger"></span>
-        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li>
+            <a
+              href="https://calendly.com/chris-grc/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="nav-link nav-cta"
+            >
+              Book a Call
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="container">
+        <h1 class="fade-in">
+          Crypto &amp; AI Education
+          <br />
+          That Makes Sense
+        </h1>
+        <p class="hero-sub fade-in">
+          Practical, hands-on education and consulting tailored to your level and goals.
+          Adelaide-based, serving Australia and worldwide.
+        </p>
+        <div class="hero-ctas fade-in">
+          <a
+            href="https://calendly.com/chris-grc/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            Book a Call
+          </a>
+          <a href="#services" class="btn btn-ghost">Our Services</a>
+        </div>
       </div>
+    </section>
 
-      <ul class="nav-menu" id="navMenu">
-        <li><a href="#services" class="nav-link">Services</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-        <li><a href="https://calendly.com/chris-grc/30min" target="_blank" rel="noopener noreferrer" class="nav-link nav-cta">Book a Call</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- ===================== HERO ===================== -->
-  <section class="hero">
-    <div class="container">
-      <h1 class="fade-in">Crypto &amp; AI Education<br>That Makes Sense</h1>
-      <p class="hero-sub fade-in">Practical, hands-on education and consulting tailored to your level and goals. Adelaide-based, serving Australia and worldwide.</p>
-      <div class="hero-ctas fade-in">
-        <a href="https://calendly.com/chris-grc/30min" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Book a Call</a>
-        <a href="#services" class="btn btn-ghost">Our Services</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== SERVICES ===================== -->
-  <section class="services" id="services">
-    <div class="container">
-      <div class="section-intro fade-in">
-        <h2>What I Offer</h2>
-        <p>Practical, hands-on education and consulting tailored to your level and goals.</p>
-      </div>
-
-      <div class="services-grid">
-        <div class="service-block fade-in">
-          <h3>Crypto Education</h3>
-          <ul>
-            <li>Bitcoin &amp; crypto fundamentals</li>
-            <li>Wallet setup &amp; self-custody</li>
-            <li>Hardware wallet security</li>
-            <li>DeFi &amp; SMSF guidance</li>
-          </ul>
+    <!-- ===================== SERVICES ===================== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-intro fade-in">
+          <h2>What I Offer</h2>
+          <p>Practical, hands-on education and consulting tailored to your level and goals.</p>
         </div>
 
-        <div class="service-block fade-in">
-          <h3>AI Tools &amp; Productivity</h3>
-          <ul>
-            <li>Claude, ChatGPT, Grok &amp; Perplexity</li>
-            <li>Prompt engineering</li>
-            <li>AI workflows &amp; automation</li>
-            <li>Business AI literacy</li>
-          </ul>
-        </div>
-
-        <div class="service-block fade-in">
-          <h3>AI-Powered Development</h3>
-          <ul>
-            <li>Building apps with Claude Code</li>
-            <li>AI-assisted software development</li>
-            <li>Rapid prototyping with AI</li>
-            <li>From idea to working product</li>
-          </ul>
-        </div>
-
-        <div class="service-block fade-in">
-          <h3>Custom Consulting</h3>
-          <ul>
-            <li>Tailored 1:1 sessions</li>
-            <li>Crypto + AI strategy</li>
-            <li>Technical deep dives</li>
-            <li>Ongoing support packages</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="services-cta fade-in">
-        <a href="#contact" class="btn btn-primary">Get Started</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== ABOUT ===================== -->
-  <section class="about" id="about">
-    <div class="container">
-      <div class="about-layout">
-        <div class="about-text fade-in">
-          <h2>About</h2>
-          <p>I'm Chris GRC. 21+ years in IT, 7+ years in crypto, and 3+ years building with AI. I help people and businesses cut through the noise and actually understand the technology that's reshaping everything.</p>
-          <p>I don't sell crypto. I don't manage your money. I don't build hype. I educate. Whether you're buying your first Bitcoin, learning to use AI at work, or navigating crypto for your SMSF &mdash; I'll walk you through it.</p>
-        </div>
-
-        <div class="about-stats fade-in">
-          <div class="stat">
-            <span class="stat-num">21+</span>
-            <span class="stat-label">Years in IT</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">7+</span>
-            <span class="stat-label">Years in Crypto</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">3+</span>
-            <span class="stat-label">Years in AI</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">90+</span>
-            <span class="stat-label">YouTube Videos</span>
-          </div>
-        </div>
-
-        <div class="about-details fade-in">
-          <div class="detail-block">
-            <h3>Qualifications</h3>
+        <div class="services-grid">
+          <div class="service-block fade-in">
+            <h3>Crypto Education</h3>
             <ul>
-              <li>RMIT Blockchain Strategy Certificate</li>
-              <li>Diploma of IT (Software Development)</li>
-              <li>ITIL, ISTQB, PRINCE2 Certified</li>
+              <li>Bitcoin &amp; crypto fundamentals</li>
+              <li>Wallet setup &amp; self-custody</li>
+              <li>Hardware wallet security</li>
+              <li>DeFi &amp; SMSF guidance</li>
             </ul>
           </div>
-          <div class="detail-block">
-            <h3>How Sessions Work</h3>
+
+          <div class="service-block fade-in">
+            <h3>AI Tools &amp; Productivity</h3>
             <ul>
-              <li><strong>Online</strong> &mdash; Brave Call (private, no account needed)</li>
-              <li><strong>In person</strong> &mdash; Adelaide metro area</li>
-              <li><strong>Education only</strong> &mdash; not financial advice</li>
+              <li>Claude, ChatGPT, Grok &amp; Perplexity</li>
+              <li>Prompt engineering</li>
+              <li>AI workflows &amp; automation</li>
+              <li>Business AI literacy</li>
+            </ul>
+          </div>
+
+          <div class="service-block fade-in">
+            <h3>AI-Powered Development</h3>
+            <ul>
+              <li>Building apps with Claude Code</li>
+              <li>AI-assisted software development</li>
+              <li>Rapid prototyping with AI</li>
+              <li>From idea to working product</li>
+            </ul>
+          </div>
+
+          <div class="service-block fade-in">
+            <h3>Custom Consulting</h3>
+            <ul>
+              <li>Tailored 1:1 sessions</li>
+              <li>Crypto + AI strategy</li>
+              <li>Technical deep dives</li>
+              <li>Ongoing support packages</li>
             </ul>
           </div>
         </div>
+
+        <div class="services-cta fade-in">
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===================== CONTACT ===================== -->
-  <section class="contact" id="contact">
-    <div class="container">
-      <div class="contact-layout">
-        <div class="contact-text fade-in">
-          <h2>Get in Touch</h2>
-          <p>Ready to get started? Send a message or book a free 30-minute discovery call.</p>
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-layout">
+          <div class="about-text fade-in">
+            <h2>About</h2>
+            <p>
+              I'm Chris GRC. 21+ years in IT, 7+ years in crypto, and 3+ years building with AI. I
+              help people and businesses cut through the noise and actually understand the
+              technology that's reshaping everything.
+            </p>
+            <p>
+              I don't sell crypto. I don't manage your money. I don't build hype. I educate. Whether
+              you're buying your first Bitcoin, learning to use AI at work, or navigating crypto for
+              your SMSF &mdash; I'll walk you through it.
+            </p>
+          </div>
 
-          <div class="contact-details">
-            <div class="contact-item">
-              <h3>Book a Call</h3>
-              <p>Free 30-minute discovery session.</p>
-              <a href="https://calendly.com/chris-grc/30min" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Book on Calendly</a>
+          <div class="about-stats fade-in">
+            <div class="stat">
+              <span class="stat-num">21+</span>
+              <span class="stat-label">Years in IT</span>
             </div>
-            <div class="contact-item">
-              <h3>Email</h3>
-              <a href="mailto:info@grassrootscrypto.io" class="email-link">info@grassrootscrypto.io</a>
+            <div class="stat">
+              <span class="stat-num">7+</span>
+              <span class="stat-label">Years in Crypto</span>
             </div>
-            <div class="contact-item">
-              <h3>Follow</h3>
-              <div class="social-links">
-                <a href="https://www.youtube.com/@GrassRootsCrypto" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            <div class="stat">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Years in AI</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">90+</span>
+              <span class="stat-label">YouTube Videos</span>
+            </div>
+          </div>
+
+          <div class="about-details fade-in">
+            <div class="detail-block">
+              <h3>Qualifications</h3>
+              <ul>
+                <li>RMIT Blockchain Strategy Certificate</li>
+                <li>Diploma of IT (Software Development)</li>
+                <li>ITIL, ISTQB, PRINCE2 Certified</li>
+              </ul>
+            </div>
+            <div class="detail-block">
+              <h3>How Sessions Work</h3>
+              <ul>
+                <li>
+                  <strong>Online</strong>
+                  &mdash; Brave Call (private, no account needed)
+                </li>
+                <li>
+                  <strong>In person</strong>
+                  &mdash; Adelaide metro area
+                </li>
+                <li>
+                  <strong>Education only</strong>
+                  &mdash; not financial advice
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-text fade-in">
+            <h2>Get in Touch</h2>
+            <p>Ready to get started? Send a message or book a free 30-minute discovery call.</p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <h3>Book a Call</h3>
+                <p>Free 30-minute discovery session.</p>
+                <a
+                  href="https://calendly.com/chris-grc/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary"
+                >
+                  Book on Calendly
                 </a>
-                <a href="https://twitter.com/GrassRootsCryp" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </div>
+              <div class="contact-item">
+                <h3>Email</h3>
+                <a href="mailto:info@grassrootscrypto.io" class="email-link">
+                  info@grassrootscrypto.io
                 </a>
+              </div>
+              <div class="contact-item">
+                <h3>Follow</h3>
+                <div class="social-links">
+                  <a
+                    href="https://www.youtube.com/@GrassRootsCrypto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="YouTube"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://twitter.com/GrassRootsCryp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="X / Twitter"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                      />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
+
+          <form
+            class="contact-form fade-in"
+            id="contactForm"
+            action="https://api.web3forms.com/submit"
+            method="POST"
+          >
+            <input type="hidden" name="access_key" value="e5d47dd8-ff45-43c3-92f9-610d4b8cd256" />
+            <input type="hidden" name="subject" value="New enquiry from grassrootscrypto.io" />
+            <input type="checkbox" name="botcheck" style="display: none" />
+
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your name" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="service">Interested In</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="Crypto Education">Crypto Education</option>
+                <option value="AI Education">AI Education</option>
+                <option value="Business & SMSF">Business &amp; SMSF</option>
+                <option value="Custom Consulting">Custom Consulting</option>
+                <option value="Not sure yet">Not sure yet</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="What are you looking for help with?"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              Send Message
+            </button>
+            <p class="form-status" id="formStatus"></p>
+          </form>
         </div>
-
-        <form class="contact-form fade-in" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-          <input type="hidden" name="access_key" value="e5d47dd8-ff45-43c3-92f9-610d4b8cd256">
-          <input type="hidden" name="subject" value="New enquiry from grassrootscrypto.io">
-          <input type="checkbox" name="botcheck" style="display:none">
-
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required placeholder="Your name">
-          </div>
-
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required placeholder="your@email.com">
-          </div>
-
-          <div class="form-group">
-            <label for="service">Interested In</label>
-            <select id="service" name="service" required>
-              <option value="" disabled selected>Select a service</option>
-              <option value="Crypto Education">Crypto Education</option>
-              <option value="AI Education">AI Education</option>
-              <option value="Business & SMSF">Business &amp; SMSF</option>
-              <option value="Custom Consulting">Custom Consulting</option>
-              <option value="Not sure yet">Not sure yet</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" placeholder="What are you looking for help with?"></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Send Message</button>
-          <p class="form-status" id="formStatus"></p>
-        </form>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===================== FOOTER ===================== -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <img src="images/logo.png" alt="GrassRoots Crypto" width="32" height="32">
-          <span>GrassRoots Crypto</span>
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <img src="images/logo.png" alt="GrassRoots Crypto" width="32" height="32" />
+            <span>GrassRoots Crypto</span>
+          </div>
+          <div class="footer-links">
+            <a href="#services">Services</a>
+            <a href="about.html">About</a>
+            <a href="#contact">Contact</a>
+            <a href="disclaimer.html">Disclaimer</a>
+            <a href="terms.html">Terms</a>
+          </div>
+          <p class="footer-copy">
+            &copy; 2026 GrassRoots Crypto &middot; Adelaide, South Australia
+          </p>
         </div>
-        <div class="footer-links">
-          <a href="#services">Services</a>
-          <a href="about.html">About</a>
-          <a href="#contact">Contact</a>
-          <a href="disclaimer.html">Disclaimer</a>
-          <a href="terms.html">Terms</a>
-        </div>
-        <p class="footer-copy">&copy; 2026 GrassRoots Crypto &middot; Adelaide, South Australia</p>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <script src="js/main.js"></script>
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
