@@ -1,0 +1,351 @@
+/* =============================================
+   Sub-page styles (About, Disclaimer, Terms)
+   ============================================= */
+
+/* ---------- Page Content Base ---------- */
+.page-content {
+  padding: 120px 0 80px;
+}
+
+/* ---------- Page Header / Hero ---------- */
+.page-header {
+  margin-bottom: 48px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border);
+}
+
+.page-header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+}
+
+[data-theme="dark"] .page-header h1 {
+  color: var(--text);
+}
+
+.page-header .page-subtitle {
+  font-size: 1.05rem;
+  color: var(--text-mid);
+  line-height: 1.7;
+  max-width: 640px;
+  margin: 0;
+}
+
+/* ---------- Typography ---------- */
+.page-content h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+[data-theme="dark"] .page-content h2 {
+  color: var(--text);
+}
+
+.page-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+[data-theme="dark"] .page-content h3 {
+  color: var(--text);
+}
+
+.page-content p {
+  font-size: 0.95rem;
+  color: var(--text-mid);
+  line-height: 1.75;
+  margin-bottom: 12px;
+  max-width: 720px;
+}
+
+.page-content ul,
+.page-content ol {
+  margin-bottom: 16px;
+  max-width: 720px;
+}
+
+.page-content li {
+  padding: 4px 0;
+  padding-left: 16px;
+  font-size: 0.92rem;
+  color: var(--text-mid);
+  line-height: 1.7;
+  position: relative;
+}
+
+.page-content ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 12px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--green);
+}
+
+.page-content ol {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+.page-content ol li {
+  padding-left: 4px;
+}
+
+.page-content ol li::before {
+  display: none;
+}
+
+.page-content a {
+  font-weight: 500;
+}
+
+/* ---------- Page Sections ---------- */
+.page-section {
+  padding: 36px 0;
+}
+
+.page-section + .page-section {
+  border-top: 1px solid var(--border);
+}
+
+/* ---------- About Page ---------- */
+
+/* About intro / lead text */
+.about-intro {
+  font-size: 1.05rem !important;
+  color: var(--text) !important;
+  line-height: 1.8 !important;
+  max-width: 720px;
+}
+
+[data-theme="dark"] .about-intro {
+  color: var(--text) !important;
+}
+
+/* About stats row (reuses index.html pattern) */
+.page-stats {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin: 32px 0;
+}
+
+.page-stats .stat {
+  text-align: center;
+  min-width: 100px;
+}
+
+.page-stats .stat-num {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.page-stats .stat:nth-child(1) .stat-num { color: var(--blue); }
+.page-stats .stat:nth-child(2) .stat-num { color: var(--gold); }
+.page-stats .stat:nth-child(3) .stat-num { color: var(--green); }
+.page-stats .stat:nth-child(4) .stat-num { color: var(--blue); }
+
+.page-stats .stat-label {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  font-weight: 500;
+  margin-top: 4px;
+  display: block;
+}
+
+/* About detail columns */
+.about-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 8px;
+}
+
+.about-column h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+[data-theme="dark"] .about-column h3 {
+  color: var(--text);
+}
+
+/* Content card - used for grouped content blocks */
+.content-card {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  margin-bottom: 20px;
+  transition: background 0.3s ease;
+}
+
+.content-card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.05rem;
+}
+
+.content-card p:last-child,
+.content-card ul:last-child {
+  margin-bottom: 0;
+}
+
+/* Mission / highlight block */
+.highlight-block {
+  border-left: 3px solid var(--blue);
+  padding-left: 20px;
+  margin: 32px 0;
+  max-width: 720px;
+}
+
+.highlight-block p {
+  font-size: 1rem;
+  color: var(--text);
+  line-height: 1.8;
+}
+
+[data-theme="dark"] .highlight-block p {
+  color: var(--text);
+}
+
+/* ---------- Legal Pages (Disclaimer, Terms) ---------- */
+.legal-notice {
+  background: var(--bg-alt);
+  border-left: 3px solid var(--gold);
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  font-size: 0.9rem;
+  max-width: 720px;
+  transition: background 0.3s ease;
+}
+
+.legal-notice p {
+  margin-bottom: 0;
+}
+
+.legal-meta {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-bottom: 0;
+}
+
+/* Legal section - gives breathing room between topics */
+.legal-section {
+  padding: 32px 0;
+}
+
+.legal-section + .legal-section {
+  border-top: 1px solid var(--border);
+}
+
+.legal-section h2 {
+  margin-top: 0;
+}
+
+.legal-section h2:first-child {
+  margin-top: 0;
+}
+
+/* Legal sub-sections (h3 groups within a section) */
+.legal-subsection {
+  margin-top: 20px;
+}
+
+.legal-subsection h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+/* Contact info block at bottom of legal pages */
+.legal-contact {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  max-width: 720px;
+  transition: background 0.3s ease;
+}
+
+.legal-contact ul {
+  margin-bottom: 0;
+}
+
+/* Legal closing statement */
+.legal-closing {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  max-width: 720px;
+}
+
+.legal-closing p {
+  font-style: italic;
+  color: var(--text-light);
+}
+
+/* ---------- Page CTA ---------- */
+.page-cta {
+  margin-top: 48px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .page-content {
+    padding: 100px 0 60px;
+  }
+
+  .page-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .page-stats {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .page-stats {
+    gap: 20px;
+  }
+
+  .page-stats .stat-num {
+    font-size: 1.6rem;
+  }
+
+  .page-cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .page-cta .btn {
+    text-align: center;
+  }
+}
