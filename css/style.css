@@ -74,6 +74,19 @@
   --footer-heading: #8da3ba;
 }
 
+/* Logo swap for dark mode */
+.logo-night {
+  display: none;
+}
+
+[data-theme="dark"] .logo-day {
+  display: none;
+}
+
+[data-theme="dark"] .logo-night {
+  display: inline;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 72px;
