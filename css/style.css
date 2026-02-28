@@ -436,10 +436,13 @@ ul {
   border-top-color: var(--green);
 }
 .service-block:nth-child(4) {
-  border-top-color: var(--blue);
+  border-top-color: var(--gold);
 }
 .service-block:nth-child(5) {
-  border-top-color: var(--gold);
+  border-top-color: var(--blue);
+}
+.service-block:nth-child(6) {
+  border-top-color: var(--green);
 }
 
 .service-block:hover {
