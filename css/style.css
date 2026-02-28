@@ -409,7 +409,7 @@ ul {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -436,6 +436,9 @@ ul {
   border-top-color: var(--green);
 }
 .service-block:nth-child(4) {
+  border-top-color: var(--blue);
+}
+.service-block:nth-child(5) {
   border-top-color: var(--gold);
 }
 
