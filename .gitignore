@@ -1,0 +1,14 @@
+# Claude Code
+.claude/
+
+# Trunk
+.trunk/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
