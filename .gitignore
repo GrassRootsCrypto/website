@@ -1,0 +1,15 @@
+# Claude Code
+.claude/
+
+# Trunk (keep trunk.yaml tracked)
+.trunk/
+!.trunk/trunk.yaml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
