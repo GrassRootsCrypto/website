@@ -22,6 +22,11 @@ lint:
     - markdownlint@0.43.0
     - git-diff-check
     - trufflehog@3.84.1
+  definitions:
+    - name: markdownlint
+      commands:
+        - name: lint
+          run: markdownlint --disable MD013 ${target}
 
 actions:
   enabled:

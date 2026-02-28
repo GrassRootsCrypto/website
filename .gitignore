@@ -1,8 +1,9 @@
 # Claude Code
 .claude/
 
-# Trunk
+# Trunk (keep trunk.yaml tracked)
 .trunk/
+!.trunk/trunk.yaml
 
 # OS files
 .DS_Store
