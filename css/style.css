@@ -780,8 +780,6 @@ ul {
 
 .footer-brand img {
   border-radius: 4px;
-  filter: brightness(0) invert(1);
-  opacity: 0.85;
 }
 
 .footer-links {
@@ -799,6 +797,15 @@ ul {
 
 .footer-links a:hover {
   color: var(--footer-heading);
+}
+
+.footer-member {
+  margin: 1rem 0;
+}
+
+.footer-member img {
+  height: 48px;
+  width: auto;
 }
 
 .footer-copy {
