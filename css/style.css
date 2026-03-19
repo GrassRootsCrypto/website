@@ -1,11 +1,13 @@
 /* =============================================
    GrassRoots Crypto - Minimal Single Page
 
-   Colour palette derived from logo:
-   Navy  #163252 → headings, footer bg
-   Blue  #0092ca → primary CTA, links (Ethereum)
-   Green #3daa78 → secondary accent (Tether)
-   Gold  #d4a643 → tertiary highlights (Bitcoin)
+   Brand colour palette (from logo):
+   Navy       #011936 → headings, footer bg
+   Dark Grey  #465362 → secondary navy
+   Teal       #3fa17a → accent green
+   Gold       #ef9200 → primary gold
+   Light Gold #eeb913 → highlight gold
+   Blue       #0092ca → links, CTAs
    ============================================= */
 
 /* ---------- Reset & Base ---------- */
@@ -18,12 +20,14 @@
 }
 
 :root {
-  /* Logo-derived palette */
-  --navy: #163252;
+  /* Brand palette */
+  --navy: #011936;
+  --navy-light: #465362;
   --blue: #0092ca;
   --blue-hover: #0080b3;
-  --green: #3daa78;
-  --gold: #d4a643;
+  --green: #3fa17a;
+  --gold: #ef9200;
+  --gold-light: #eeb913;
 
   /* Text - navy-tinted, not generic grey */
   --text: #1e3347;
@@ -39,7 +43,7 @@
   --border: #dce3ea;
 
   /* Footer - brand navy */
-  --footer-bg: #163252;
+  --footer-bg: #011936;
   --footer-text: #8da3ba;
   --footer-heading: #d6e0ea;
 
@@ -63,7 +67,8 @@
   --blue: #2eb5f0;
   --blue-hover: #58c5f5;
   --green: #4fbe8a;
-  --gold: #e8c05a;
+  --gold: #eeb913;
+  --gold-light: #f5d44a;
 
   /* Borders */
   --border: #1e3a54;

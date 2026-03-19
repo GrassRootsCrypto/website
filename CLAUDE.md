@@ -29,7 +29,7 @@ Any change to nav or footer must be applied to all 5 files.
 
 - CSS variables for theming; dark mode via `[data-theme="dark"]` selectors
 - Logo swap: `.logo-day` / `.logo-night` toggled by data-theme
-- Colour palette from logo: navy `#163252`, blue `#0092ca`, green `#3daa78`, gold `#d4a643`
+- Brand palette: navy `#011936`, dark grey `#465362`, teal `#3fa17a`, gold `#ef9200`, light gold `#eeb913`, blue `#0092ca`
 - Responsive breakpoints at 768px and 480px
 
 **JS** (`js/main.js`):
