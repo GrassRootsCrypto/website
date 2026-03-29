@@ -13,3 +13,7 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Business card reference (not for web)
+front_fullcolor_1024x599.pdf
+back_fullcolor_1024x599.pdf
