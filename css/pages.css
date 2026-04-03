@@ -308,6 +308,28 @@
   color: var(--text-light);
 }
 
+/* ---------- Pay Page ---------- */
+.pay-form {
+  background: var(--card-bg);
+  padding: 28px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  max-width: 400px;
+}
+
+.pay-frame-wrapper {
+  margin-top: 32px;
+  max-width: 720px;
+}
+
+.pay-frame {
+  width: 100%;
+  min-height: 700px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-alt);
+}
+
 /* ---------- Page CTA ---------- */
 .page-cta {
   margin-top: 48px;
