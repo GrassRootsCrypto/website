@@ -238,7 +238,7 @@
           var amount = document.getElementById("amount").value;
           var body = new URLSearchParams({ amount: amount });
 
-          fetch("https://btcpay.grchomelab.xyz/apps/2g92S5VisCayAiJ7vP3bC6D6jzji/pos", {
+          fetch("https://pay.grassrootscrypto.io/apps/2g92S5VisCayAiJ7vP3bC6D6jzji/pos", {
             method: "POST",
             body: body,
             redirect: "manual",
@@ -269,7 +269,7 @@
         function submitViaForm(amount) {
           var f = document.createElement("form");
           f.method = "POST";
-          f.action = "https://btcpay.grchomelab.xyz/apps/2g92S5VisCayAiJ7vP3bC6D6jzji/pos";
+          f.action = "https://pay.grassrootscrypto.io/apps/2g92S5VisCayAiJ7vP3bC6D6jzji/pos";
           f.target = "btcpay-frame";
 
           var input = document.createElement("input");
