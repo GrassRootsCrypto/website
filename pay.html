@@ -286,6 +286,22 @@
           document.body.removeChild(f);
           frameWrapper.scrollIntoView({ behavior: "smooth" });
         }
+
+        // Detect when user returns from payment tab
+        window.addEventListener("focus", function () {
+          if (frameWrapper.style.display === "block") {
+            // User was on payment, now they're back
+            form.reset();
+            frameWrapper.style.display = "none";
+            form.style.display = "block";
+            payBtn.disabled = false;
+            payBtn.textContent = "Pay with Bitcoin";
+            payStatus.textContent =
+              "Payment complete? Check your email for confirmation, or enter another amount below.";
+            payStatus.className = "form-status success";
+            form.scrollIntoView({ behavior: "smooth" });
+          }
+        });
       })();
     </script>
   </body>
