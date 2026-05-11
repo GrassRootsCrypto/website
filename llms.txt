@@ -1,0 +1,41 @@
+# GrassRoots Crypto
+
+> Crypto and AI education, consulting, and custom solutions delivered by Chris GRC, a sole-trader based in Adelaide, South Australia. 21+ years in IT, 7+ years in crypto, 3+ years building with AI. Bitcoin payments accepted. Educational content only — not financial advice.
+
+## Services
+
+- [Crypto Education](https://grassrootscrypto.io/#services): Bitcoin and crypto fundamentals, wallet setup, self-custody, hardware wallet security, DeFi and SMSF guidance.
+- [AI Education](https://grassrootscrypto.io/#services): What AI is and how LLMs work. Hands-on with ChatGPT, Claude, and Grok. Projects, prompts, and system instructions. From beginner to confident user.
+- [AI in Your Workflow](https://grassrootscrypto.io/#services): Practical AI for existing tools. Connectors, extensions, integrations. Draft emails, research, summarise, automate repetitive tasks.
+- [Custom Consulting](https://grassrootscrypto.io/#services): Tailored 1:1 sessions. Crypto + AI strategy. Data migration planning. Ongoing support packages.
+- [AI-Powered Development](https://grassrootscrypto.io/#services): Custom apps and tools built with AI-assisted code. Data migrations and system integrations. Rapid prototyping to working product.
+- [Hosted Custom Builds](https://grassrootscrypto.io/#services): Custom apps and tools hosted for you. Bitcoin and crypto node hosting. AI agents and automation bots. Fully managed.
+- [Pay with Bitcoin](https://grassrootscrypto.io/pay.html): Accept Bitcoin payments via self-hosted BTCPay Server.
+
+## Pages
+
+- [Home](https://grassrootscrypto.io/): Services overview, testimonials, contact form.
+- [About](https://grassrootscrypto.io/about.html): Background, credentials, AI tools used daily.
+- [Disclaimer](https://grassrootscrypto.io/disclaimer.html): Educational content disclaimer. Not financial advice.
+- [Terms of Service](https://grassrootscrypto.io/terms.html): Service terms.
+- [Privacy Policy](https://grassrootscrypto.io/privacy.html): How personal information is handled.
+
+## Testimonials
+
+- Landcare Association of South Australia Inc. — Introduction to AI webinar. Quote on file.
+
+## Contact and Social
+
+- Email: chris@grassrootscrypto.io
+- YouTube: https://www.youtube.com/@GrassRootsCrypto (90+ videos)
+- Twitter / X: https://twitter.com/GrassRootsCryp
+
+## Location
+
+- Adelaide, South Australia. Serving Australia and worldwide (remote and in-person).
+
+## Positioning Notes
+
+- Founder is referred to publicly as "Chris" or "Chris GRC". No surname disclosed.
+- All crypto content is educational, not financial advice.
+- Australian-based sole trader. Not an agency.
