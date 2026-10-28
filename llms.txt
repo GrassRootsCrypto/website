@@ -1,6 +1,6 @@
 # GrassRoots Crypto
 
-> Crypto and AI education, consulting, and custom solutions delivered by Chris GRC, a sole-trader based in Adelaide, South Australia. 21+ years in IT, 7+ years in crypto, 3+ years building with AI. Bitcoin payments accepted. Educational content only — not financial advice.
+> Crypto and AI education, consulting, and custom solutions delivered by GrassRoots Crypto Pty Ltd, Adelaide, South Australia. 21+ years in IT, 7+ years in crypto, 3+ years building with AI. Bitcoin payments accepted. Educational content only — not financial advice.
 
 ## Services
 
@@ -26,7 +26,7 @@
 
 ## Contact and Social
 
-- Email: chris@grassrootscrypto.io
+- Email: info@grassrootscrypto.io
 - YouTube: https://www.youtube.com/@GrassRootsCrypto (90+ videos)
 - Twitter / X: https://twitter.com/GrassRootsCryp
 
@@ -38,4 +38,4 @@
 
 - Founder is referred to publicly as "Chris" or "Chris GRC". No surname disclosed.
 - All crypto content is educational, not financial advice.
-- Australian-based sole trader. Not an agency.
+- Australian company (GrassRoots Crypto Pty Ltd). Not an agency.
