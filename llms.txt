@@ -4,7 +4,7 @@
 
 ## Services
 
-- [Crypto Education](https://grassrootscrypto.io/#services): Bitcoin and crypto fundamentals, wallet setup, self-custody, hardware wallet security, DeFi and SMSF guidance.
+- [Crypto Education](https://grassrootscrypto.io/#services): Bitcoin and crypto fundamentals, wallet setup, self-custody, hardware wallet security, DeFi and SMSF education.
 - [AI Education](https://grassrootscrypto.io/#services): What AI is and how LLMs work. Hands-on with ChatGPT, Claude, and Grok. Projects, prompts, and system instructions. From beginner to confident user.
 - [AI in Your Workflow](https://grassrootscrypto.io/#services): Practical AI for existing tools. Connectors, extensions, integrations. Draft emails, research, summarise, automate repetitive tasks.
 - [Custom Consulting](https://grassrootscrypto.io/#services): Tailored 1:1 sessions. Crypto + AI strategy. Data migration planning. Ongoing support packages.
@@ -28,7 +28,7 @@
 
 - Email: info@grassrootscrypto.io
 - YouTube: https://www.youtube.com/@GrassRootsCrypto (90+ videos)
-- Twitter / X: https://twitter.com/GrassRootsCryp
+- Twitter / X: https://twitter.com/grassrootsio
 
 ## Location
 
