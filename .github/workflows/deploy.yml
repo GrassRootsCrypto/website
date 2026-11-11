@@ -35,6 +35,14 @@ jobs:
           mkdir _site
           cp -r *.html CNAME robots.txt sitemap.xml llms.txt llms-full.txt css js images assets THORChainDiagrams _site/
 
+      # Cache-bust: stamp the commit id onto every local CSS/JS link so Cloudflare and
+      # browsers fetch the new files on each deploy. Source HTML keeps plain paths.
+      - name: Version CSS and JS links
+        run: |
+          v="${GITHUB_SHA::8}"
+          find _site -maxdepth 2 -name '*.html' -exec \
+            sed -i -E "s#((href|src)=\"/?(css|js)/[a-z]+\.(css|js))\"#\1?v=${v}\"#g" {} +
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

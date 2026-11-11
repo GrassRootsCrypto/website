@@ -369,16 +369,12 @@ ul {
   color: var(--text);
 }
 
-.hero-crypto {
+.hero-accent {
   color: var(--green);
 }
 
 .hero-x {
   color: var(--gold);
-}
-
-.hero-ai {
-  color: var(--blue);
 }
 
 .hero-sub {
