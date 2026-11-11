@@ -369,6 +369,18 @@ ul {
   color: var(--text);
 }
 
+.hero-crypto {
+  color: var(--green);
+}
+
+.hero-x {
+  color: var(--gold);
+}
+
+.hero-ai {
+  color: var(--blue);
+}
+
 .hero-sub {
   font-size: 1.1rem;
   color: var(--text-mid);
@@ -457,6 +469,31 @@ ul {
 
 [data-theme="dark"] .service-block:hover {
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+.service-tag {
+  float: right;
+  margin: 1px 0 6px 10px;
+  padding: 2px 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+
+.service-tag--crypto {
+  border-color: var(--gold);
+}
+
+.service-tag--ai {
+  border-color: var(--blue);
+}
+
+.service-tag--both {
+  border-color: var(--green);
 }
 
 .service-block h3 {

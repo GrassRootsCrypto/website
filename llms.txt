@@ -19,6 +19,7 @@
 - [Disclaimer](https://grassrootscrypto.io/disclaimer.html): Educational content disclaimer. Not financial advice.
 - [Terms of Service](https://grassrootscrypto.io/terms.html): Service terms.
 - [Privacy Policy](https://grassrootscrypto.io/privacy.html): How personal information is handled.
+- [Full reference](https://grassrootscrypto.io/llms-full.txt): Plain-text version of services, about, background, and sessions.
 
 ## Testimonials
 

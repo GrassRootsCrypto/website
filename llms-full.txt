@@ -1,0 +1,126 @@
+# GrassRoots Crypto — Full Reference
+
+> Crypto and AI education and consulting from GrassRoots Crypto Pty Ltd, Adelaide, South Australia. Started in 2020. 21+ years in IT, 7+ years in crypto, 3+ years building with AI. Educational content only — not financial advice.
+
+This is the plain-text version of the main content on grassrootscrypto.io, for AI systems and agents. Everything here also appears on the website. Short index: https://grassrootscrypto.io/llms.txt
+
+## About
+
+I'm Chris (publicly "Chris" or "Chris GRC"). I started GrassRoots Crypto in 2020 to help newcomers navigate the world of blockchain, cryptocurrency, and now AI. Most YouTube videos at the time were full of jargon that made no sense to beginners, so I built a platform where people could actually learn without the confusion.
+
+I've since expanded into AI education, business consulting, and AI-powered development, so I can help a broader range of people and businesses, whether they're just getting started or looking to go deeper.
+
+I don't sell hype. I don't chase trends. I educate, consult, and build.
+
+## Services
+
+### Crypto Education (Crypto)
+
+- Bitcoin and crypto fundamentals
+- Wallet setup and self-custody
+- Hardware wallet security
+- DeFi and SMSF education
+
+### AI Education (AI)
+
+- What AI is and how LLMs work
+- ChatGPT, Claude and Grok hands-on
+- Projects, prompts and system instructions
+- From beginner to confident user
+
+### AI in Your Workflow (AI)
+
+- Learn which AI tool fits which job
+- Connectors, extensions and integrations with your existing tools
+- Draft emails, research, summarise and automate repetitive tasks
+- Hands-on: I show you, then you do it
+
+### Custom Consulting (Crypto × AI)
+
+- Tailored 1:1 sessions for your specific needs
+- Crypto + AI strategy
+- Data migration planning
+- Ongoing support packages
+
+### AI-Powered Development (Crypto × AI)
+
+- Custom apps and tools built with AI-assisted code
+- Data migrations and system integrations
+- Rapid prototyping to working product
+- Built with the same approach I use for client work
+
+### Hosted Custom Builds (Crypto × AI)
+
+- Custom apps and tools hosted for you
+- Bitcoin and crypto node hosting
+- AI agents and automation bots
+- Fully managed on your server or mine
+
+## How sessions work
+
+- Online: Brave Call (private, no account needed)
+- In person: Adelaide metro area
+- Education only: not financial advice
+
+## Getting started
+
+- Book a 15-minute chat: https://calendly.com/chris-grc/15min
+- Contact form: https://grassrootscrypto.io/#contact
+- Email: info@grassrootscrypto.io
+
+## Payment
+
+- Bitcoin accepted through my self-hosted BTCPay Server: https://grassrootscrypto.io/pay.html
+
+## Background
+
+21+ years in IT. 7+ years in crypto. 3+ years building with AI. My background spans requirements, development, testing, and project management, so when I build applications with AI tools like Claude Code, I bring the full picture, not just prompts. I've presented for the Australian Computer Society (ACS).
+
+My first videos came about when the THORChain community asked for an instructional series on THORNodes (AWS infrastructure deployments) for current and new node operators. From there I went deeper into THORChain and started producing content on fundamental DeFi concepts like liquidity pools.
+
+### Qualifications
+
+- Certification in Blockchain Strategy, RMIT University
+- ITIL Foundation in IT Service Management
+- ISTQB Advanced Test Manager
+- PRINCE2 Practitioner
+- Certificate of Software System Development, iCarnegie (subsidiary of Carnegie Mellon University)
+- Diploma of Information Technology, Software Development
+
+### Achievements
+
+- Created over 90 educational YouTube videos, from beginner to technical: https://www.youtube.com/@GrassRootsCrypto
+- Authored 32 Medium articles on DeFi
+- Written extensive technical documentation
+- Developed and tested wallet software
+- Building custom applications with AI (Claude Code)
+
+### AI tools I use
+
+- Claude Max and Super Grok (my go-to tools)
+- Perplexity Enterprise Pro
+- ChatGPT Pro
+- Gemini
+
+## Client feedback
+
+Landcare Association of South Australia Inc., on the "Introduction to Artificial Intelligence (AI)" webinar:
+
+"Before the session, many participants were curious about AI but unsure where to begin or how it might apply to community Landcare, volunteer coordination, or environmental project work. Chris immediately bridged that gap. His Introduction to Artificial Intelligence (AI) webinar was educational, engaging, and exceptionally well-paced, turning what can feel like a complex topic into something clear, relevant, and empowering."
+
+## Not financial advice
+
+All consultations, whether in person or online, are educational and do not constitute financial, investment, or tax advice. I teach you how to think about crypto and AI, not what to do with your money. GrassRoots Crypto does not hold an Australian Financial Services Licence (AFSL) and is not a licensed financial adviser. Full disclaimer: https://grassrootscrypto.io/disclaimer.html
+
+## Legal pages
+
+- Disclaimer: https://grassrootscrypto.io/disclaimer.html
+- Terms of Service: https://grassrootscrypto.io/terms.html
+- Privacy Policy: https://grassrootscrypto.io/privacy.html
+
+## Contact and social
+
+- Website: https://grassrootscrypto.io/
+- Email: info@grassrootscrypto.io
+- YouTube: https://www.youtube.com/@GrassRootsCrypto
+- X: https://twitter.com/grassrootsio
